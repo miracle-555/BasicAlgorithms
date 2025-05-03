@@ -1,2 +1,2 @@
-# -
+# BasicAlgorithms
 用python写的，是一些比较基础常见的算法，用来自己练手
