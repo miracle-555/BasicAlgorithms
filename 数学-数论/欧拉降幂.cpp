@@ -18,7 +18,7 @@ using ll = long long;
 using namespace std;
 const ll MOD = 1000000007;
 
-ll qpow(ll a, ll exp, ll mod){   // function无法弄ll的, 故还是放全局中
+ll qpow(ll a, ll exp, ll mod){
     a %= mod;
     ll res = 1;
     while (exp){
