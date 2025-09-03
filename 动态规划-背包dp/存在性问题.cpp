@@ -1,7 +1,7 @@
 /*
 背包的存在性问题
 n表示数据个数
-把数据分成两类, 使得这两类的各自和的乘积最大
+把数据分成两类, 使得这两类各自构成的和再相乘后的乘积最大
 */
 
 /*
@@ -16,13 +16,15 @@ n表示数据个数
 12873625444
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <numeric>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll n;   // 输入
     cin >> n;

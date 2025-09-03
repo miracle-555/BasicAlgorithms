@@ -16,13 +16,18 @@ n是点的个数, 后面n个数是每个点的三维坐标
 4.69
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <functional>
+#include <cstring>
+#include <cmath>  // INFINITY
+#include <iomanip>  // setprecision
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll n;
     cin >> n;

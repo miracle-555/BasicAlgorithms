@@ -22,13 +22,16 @@ opt为2表示输出[a, b]中比c小的个数
 3
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <cmath>
+#include <algorithm>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll N, q;
     cin >> N;

@@ -20,11 +20,16 @@ N表示节点个数, q表示边数
 3512
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <functional>   
 using ll = long long;
 using namespace std;
 
 int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+
     ll N, q;
     cin >> N >> q;
     vector<ll> rot(N + 1);

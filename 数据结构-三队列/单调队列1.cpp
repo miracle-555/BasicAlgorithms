@@ -15,13 +15,14 @@ n代表数组a的大小, k代表滑动窗口的大小
 3 3 5 5 6 7 
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <deque>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll n, k;
     cin >> n >> k;

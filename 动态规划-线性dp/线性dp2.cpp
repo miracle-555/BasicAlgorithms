@@ -19,13 +19,13 @@ v[k] = s表示该训练经过连续2 ** k天训练后可以有s的收益, 中断
 30
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
     
     ll n, m, q, t, k, s;
     cin >> n >> m >> q;

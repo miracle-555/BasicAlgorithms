@@ -1,6 +1,6 @@
 /*
 线性dp
-一共n个数字构成数组a[n], 对其分成k组, 每组必须连续且非空
+一共n个数字构成数组a, 对其分成k组, 每组必须连续且非空
 这k组不相交且并集为全集
 求max{sum(p[j] * sum[j])}, j = 1, 2, ..., k
 其中p[j]为给定的权重, sum[j]为第j组中数字的和  
@@ -16,13 +16,14 @@
 -7
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <cstring>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
     
     ll n, k;
     cin >> n >> k;

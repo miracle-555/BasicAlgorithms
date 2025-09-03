@@ -13,7 +13,7 @@
 64
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
 using ll = long long;
 using namespace std;
 const ll MOD = 1000000007;
@@ -30,8 +30,8 @@ ll qpow(ll a, ll exp, ll mod){
 }
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll n, m, exp = 1;
     cin >> n >> m;

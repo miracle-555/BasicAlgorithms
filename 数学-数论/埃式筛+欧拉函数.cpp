@@ -22,7 +22,8 @@ T表示询问次数, num是T个要求的数字
 3 6576
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <climits>
 using ll = long long;
 using namespace std;
 
@@ -32,8 +33,8 @@ ll ans[N + 1];
 ll phi[N + 1];
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     // 对全局空间中三个数组的初始化
     is_prime[0] = is_prime[1] = 0;

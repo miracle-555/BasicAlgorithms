@@ -15,14 +15,15 @@ n和m代表矩阵v的行数和列数, a和b代表滑动窗口的大小
 58
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <deque>
 using ll = long long;
 using namespace std;
 const ll MOD = 998244353;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll n, m, a, b, res = 0;
     cin >> n >> m >> a >> b;

@@ -1,9 +1,9 @@
 /*
 LCA + 状态压缩
 N代表树的大小, Q表示询问次数
-c[i]表示第i个点所含的数字
-u和v表示N-1条边的两个节点
-a和b表示一次询问, 最后返回途径过程上最少的不同数字个数
+再N行: c[i]表示第i个点所含的数字
+再Q行: u和v表示N-1条边的两个节点
+a和b表示一次询问, 最后输出途径过程上最少的不同数字个数
 */
 
 /*
@@ -21,13 +21,17 @@ a和b表示一次询问, 最后返回途径过程上最少的不同数字个数
 2
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <queue> 
+#include <cstring>
+#include <cmath>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll N, Q, u, v;
     cin >> N >> Q;

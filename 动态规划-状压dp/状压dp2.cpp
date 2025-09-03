@@ -15,13 +15,17 @@ n是行数, m是列数, 接下来是n行m列的01矩阵
 1
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <map>
+#include <functional>
+#include <algorithm>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll n, m, tem;
     cin >> n >> m;

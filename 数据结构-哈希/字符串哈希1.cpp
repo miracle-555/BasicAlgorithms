@@ -13,7 +13,8 @@ cddccdccdddccdd
 3
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
 using ll = long long;
 using namespace std;
 const ll N = 1000000;
@@ -50,8 +51,8 @@ ll get_hash2(ll l, ll r){
 }
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     string s1, s2;
     cin >> s1 >> s2;

@@ -19,13 +19,16 @@ u, v, w指的是点u和点v之间有一条权值是w的边
 12
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <queue>
+#include <utility>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll n, m;
     cin >> n >> m;

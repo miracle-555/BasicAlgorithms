@@ -1,6 +1,7 @@
 /*
 乘法逆元 + 组合数 + 快速幂
 q指的是询问次数
+接下来q行指的是q次询问，每行两个数n和m
 求的是C(n,m)对MOD取模后的值
 */
 
@@ -17,7 +18,7 @@ q指的是询问次数
 5
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
 using ll = long long;
 using namespace std;
 
@@ -38,8 +39,8 @@ ll qpow(ll a, ll exp, ll mod){
 }
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     // 初始化阶乘和逆阶乘
     fact[0] = inv_fact[0] = 1;

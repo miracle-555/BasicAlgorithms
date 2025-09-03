@@ -25,7 +25,10 @@ n和m为两个树的节点个数, 编号各自从1到n或者m
 2
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <set>
+#include <utility>
 using ll = long long;
 using namespace std;
 
@@ -60,8 +63,8 @@ void dfs2(ll u, ll fa, ll ha1, ll ha2, ll len, vector<ll>* tree, ll* r){
 }
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll n, m, u, v;
     cin >> n >> m;

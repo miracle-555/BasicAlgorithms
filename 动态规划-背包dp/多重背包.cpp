@@ -2,7 +2,8 @@
 多重背包 + 完全背包
 N和V分别表示物品数量和背包最大容量
 w、v、s分别表示单个物品的体积、价值、个数
-s = 0表示有无数个
+s = 0时表示有无数个
+求最大可装进背包内的价值
 */
 
 /*
@@ -16,13 +17,14 @@ s = 0表示有无数个
 75
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll N, V, w, v, s;
     cin >> N >> V;

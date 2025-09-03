@@ -1,6 +1,6 @@
 /*
 记忆化搜索 + 区间dp
-给一个数字s, 任意选择一个连续子区间
+给一个数字s, 任意选择该数字构成的字符串的一个连续子区间
 使得该子区间从l到r翻转后, 填充回原来的数字, 严格比初始s小
 问有多少种选择方案, 方案不同当且仅当l和r都不同
 */
@@ -13,13 +13,15 @@
 8
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <functional>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
     
     string s;
     cin >> s;

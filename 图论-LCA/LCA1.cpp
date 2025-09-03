@@ -1,9 +1,9 @@
 /*
 LCA
 N代表树的大小
-u和v表示N-1条边的两个节点
+接下来N行, u和v表示N-1条边的两个节点
 Q表示询问次数
-a和b表示一次对最近公共祖先的询问
+接下来Q行, a和b表示一次对最近公共祖先的询问, 依次输出即可
 */
 
 /*
@@ -24,13 +24,17 @@ a和b表示一次对最近公共祖先的询问
 1
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <cstring>
+#include <queue>
+#include <cmath>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll N, u, v;
     cin >> N;

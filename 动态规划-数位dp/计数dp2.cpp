@@ -1,7 +1,7 @@
 /*
 计数dp
 输出[a, b]之间的数字中满足各个相邻位数之间差都大于等于2的个数
-个位数也计入
+同时个位数也计入其中
 */
 
 /*
@@ -12,13 +12,18 @@
 9
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <functional>
+#include <cstring>
+#include <cmath>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll a, b;
     cin >> a >> b;

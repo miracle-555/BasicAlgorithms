@@ -15,13 +15,17 @@ p是m只羊分别跑掉的概率（在不被框住时）, 被框住时一定不�
 1.00
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <iomanip>
+#include <cmath>
+#include <numeric>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll n, m;
     cin >> n >> m;

@@ -2,7 +2,7 @@
 01背包 + 完全背包
 N和V表示物品件数和背包最大容量(承重)
 w和v分别表示物品的体积(重量)和价值
-分别输出两个数字, 分别代表物品只有一件时和有无穷件时
+分别输出两个数字, 分别代表物品只有一件时和有无穷件时背包最多能放价值多少的物品
 */
 
 /*
@@ -19,13 +19,15 @@ w和v分别表示物品的体积(重量)和价值
 120
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll N, V, w, v;
     cin >> N >> V;

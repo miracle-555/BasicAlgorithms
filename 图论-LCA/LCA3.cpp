@@ -4,7 +4,7 @@ N代表树的大小, Q表示总路径的条数
 u和v表示N-1条边的两个节点
 a和b表示一次路径
 最后返回一条路的编号, 使得去掉这条路径后, 前面Q条路都会断掉
-无答案返回-1, 多答案返回最大的编号
+无答案输出-1, 多答案输出最大的编号
 */
 
 /*
@@ -22,13 +22,18 @@ a和b表示一次路径
 4
 */
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <queue>
+#include <functional>
+#include <cstring>
+#include <cmath>
 using ll = long long;
 using namespace std;
 
 int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(0); cout.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
     ll N, M, u, v;
     cin >> N >> M;
